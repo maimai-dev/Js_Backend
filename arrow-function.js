@@ -5,3 +5,9 @@ const estudanteReprovou = (notaFinal, faltas) => {
         return false;
     }
 }
+
+console.log(estudanteReprovou(6, 5));
+console.log(estudanteReprovou(10, 2));
+
+const exibeNome = (nome) => nome;
+console.log(exibeNome('Maiara'));
